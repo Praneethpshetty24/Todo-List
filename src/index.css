@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+  overflow: hidden;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-image: url('C:\Todo\my-todo-app\src\1234.jpg');
+  background-size: cover;
+  
+}
+.Main{
+  border: 2px solid white;
+  height: 400px;
+  width: 700px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.Cent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: white;
+}
+ul li span{
+  overflow: hidden;
+}
+.button1 ,
+.button2{
+  border-radius: 10px;
+}
+.Text{
+  color: white;
+  font-size: 25px;
 }
